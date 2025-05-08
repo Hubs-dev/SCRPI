@@ -1,1 +1,8 @@
-SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+local Window = Library.CreateLib("TITLE", "DarkTheme")
+local Tab = Window:NewTab("TabName")
+local Section = Tab:NewSection("Section Name")
+Section:UpdateSection("Section New Title")
+Section:NewButton("ButtonText", "ButtonInfo", function()
+    print("Clicked")
+end)
+button:UpdateButton("New Text")
